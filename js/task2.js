@@ -6,7 +6,7 @@ function task2() {
 	var coefUsdToUah  = 26.0894;
 	var coeftEurToUsd = 1.1401;
 
-	let resultTask2 = `${countEur} euros are equal ${countEur*coefEurToUah}UAH, ${countUsd} dollars are equal ${countUsd*coefUsdToUah}UAH, one euro is equal ${coeftEurToUsd} dollars.`;
+	let resultTask2 = `${countEur} euros are equal ${countEur*coefEurToUah}UAH, ${countUsd} dollars are equal ${countUsd*coefUsdToUah}UAH, one euro is equal ${coeftEurToUsd}USD.`;
 	
 	return alert(resultTask2);
 }
